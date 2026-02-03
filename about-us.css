@@ -1,0 +1,33 @@
+/*
+ * Student Name: Shelby Surprenant-Nicolson
+ * Student ID: 041095620
+ * Course: CST8117 - Cross-Platform Web Design
+ * Semester: Winter 2023
+ * Assignment: 4
+ * Date Submitted:  Apr 17, 2023
+ */
+
+figure {
+	float: right;
+    border: #FFD700 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 15px;
+    max-width: 220px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 80px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 250px;
+}
+
+figcaption {
+    background-color: #fff;
+    color: #222;
+    font: italic sans-serif;
+    padding: 4px;
+    text-align: center;

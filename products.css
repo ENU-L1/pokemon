@@ -1,0 +1,417 @@
+/*
+ * Student Name: Shelby Surprenant-Nicolson
+ * Student ID: 041095620
+ * Course: CST8117 - Cross-Platform Web Design
+ * Semester: Winter 2023
+ * Assignment: 4
+ * Date Submitted: Apr 17, 2023
+ */
+
+.card {
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  padding: 10px;
+  margin: 12px;
+  text-align: center;
+  font-family:"Courier New", monospace;
+  background-color: White;
+}
+
+.price {
+  color: black;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: #FFD700;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1em;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+	
+.card {
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 150px;
+  padding: 10px;
+  margin: 12px;
+  text-align: center;
+  font-family:"Courier New", monospace;
+  background-color: White;
+}
+}
+
+  /*Citation: https://codingartistweb.com/2021/11/product-filter-and-search-using-javascript/
+  Date Retrieved: Feb 23, 2023
+  Notes: copied and adapted 8 css style to design the filter button on products.*/
+  
+  /*the search and filter container in Products*/
+  
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+  
+#search-container {
+    margin: 1em 0;
+}
+  
+#search-container input {
+    background-color: White;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+}
+
+#search-container input:focus {
+    border-bottom-color: #FFD700;
+}
+  
+#search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: #FFD700;
+    color: #Black;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+.button-value {
+    border: 2px solid #FFD700;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: #FFD700;
+    color: #black;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #FFD700;
+    color: #Black;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1.5em;
+    padding: 2em 0;
+}
+
+.pagination{
+  background-color: #f2f2f2;
+  float: right;
+  display: flex;
+  
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.pagination a{
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #333;
+  font-size: 1em;
+  font-weight: 700;
+  transition: .3s linear;
+}
+
+.pagination a:hover{
+  color: BLack;
+  background-color: #FFD700;
+}
+
+.bottom_bar{
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: #000;
+  bottom: 0;
+  left: -100px;
+  transition: .4s;
+}
+
+/*Citation: https://codepen.io/justinklemm/pen/kyMjjv
+  Date Retrieved: Feb 23, 2023
+  Notes: copied and adapted 24 css style to design the filter button on products.*/
+
+  $color-border: #eee;
+  $color-label: #aaa;
+  $font-default: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  $font-bold: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
+
+/* Global "table" column settings */
+  .product-image { float: left; width: 20%; }
+  .product-details { float: right; width: 37%; }
+  .product-price { float: right; width: 12%; }
+  .product-quantity { float: right; width: 12%; }
+  .product-removal { float: right; width: 9%; }
+  .product-line-price { float: right; width: 12%; text-align: center; }
+
+/* This is used as the traditional .clearfix class */
+.group:before,
+.group:after {
+    content: '';
+    display: table;
+} 
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+/* Apply clearfix in a few places */
+.shopping-cart, .column-labels, .product, .totals-item {
+  @extend .group;
+}
+
+/* Apply dollar signs */
+.product .product-price:before, .product .product-line-price:before, .totals-value:before {
+  content: '$';
+}
+
+
+h1 {
+  font-weight: 100;
+}
+
+label {
+  color: $color-label;
+}
+
+/* Column headers */
+.column-labels {
+label {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 10px solid $color-border;
+}
+  
+.product-image, .product-details, .product-removal {
+    text-indent: -9999px;
+	
+}
+
+/* Product entries */
+.product {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 10px solid $color-border;
+  
+.product-image {
+    text-align: center;
+    img {
+       max-width: 100%;
+       height: auto;
+  }
+}
+  
+.product-details {
+    .product-title {
+      margin-right: 20px;
+      font-family: $font-bold;
+    }
+    .product-description {
+      margin: 5px 20px 5px 0;
+      line-height: 1.4em;
+    }
+}
+  
+.product-quantity {
+    input {
+      width: 40px;
+      
+    }
+}
+  
+.remove-product {
+    border: 0;
+    padding: 4px 8px;
+    background-color: #c66;
+    color: #fff;
+    font-family: $font-bold;
+    font-size: 1em;
+    border-radius: 3px;
+  }
+  
+  .remove-product:hover {
+    background-color: #a44;
+  }
+}
+
+/* Totals section */
+.totals {
+  .totals-item {
+    float: center;
+    clear: both;
+    width: 100%;
+    margin-bottom: 10px;
+    
+label {
+      float: left;
+      clear: both;
+      width: 79%;
+      text-align: right;
+}
+    
+.totals-value {
+      float: left;
+      width: 21%;
+      text-align: right;
+    }
+}
+  
+.totals-item-total {
+    font-family: font-bold;
+  }
+}
+
+.checkout {
+  float: right;
+  border: 0;
+  margin-top: 20px;
+  padding: 6px 25px;
+  background-color: #6b6;
+  color: #fff;
+  font-size: 1em;
+  border-radius: 3px;
+}
+
+.checkout:hover {
+  background-color: #494;
+}
+
+
+    /*Citation: https://codepen.io/creativesunil/pen/NWGojvM?editors=1100
+    Date Retrieved: Feb 23, 2023
+    Notes: copied and adapted 18 css style to design the filter button on products.*/
+
+.my_img {
+    vertical-align: middle;
+	float: right;
+     max-width: 100%;
+      height: auto;
+}
+
+.section-bg {
+    background-color: #DCDCDC;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.row-sm .col-md-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+	/* products-details */
+._product-detail-content {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid lightgray;
+}
+
+._product-detail-content p._p-name {
+    color: black;
+    font-size: 1em;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 12px;
+}
+
+.p-list span {
+    margin-right: 15px;
+}
+
+.p-list span.price {
+    font-size: 1em;
+    color: #318234;
+}
+
+._p-qty > span {
+    color: black;
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+._p-qty .value-button {
+    display: inline-flex;
+    border: 0px solid #ddd;
+    margin: 0px;
+    width: 30px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    background: #fd7f34;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+}
+
+._p-qty .value-button {
+    border: 0px solid #fe0000;
+    height: 35px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+._p-qty input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #green;
+    border-bottom: 1px solid #fe0000;
+    margin: 0px;
+    width: 50px;
+    height: 35px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+._p-add-cart {
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+
+.p-list {
+    margin-bottom: 10px;
+}
+
+._p-features > span {
+    display: block;
+    font-size: 1em;
+    color: #red;
+    font-weight: 500;
+}
+
+._p-add-cart .btn {
+    text-transform: capitalize;
+    padding: 6px 20px;
+    /* width: 200px; */
+    border-radius: 52px;
+}
+
+._p-add-cart .btn {
+    margin: 0px 8px;
+}
