@@ -1,0 +1,56 @@
+Images 0.1
+
+Reddit. CorvosKK. (2012). Ash. Retrieved on Feb 02, 2023, from https://www.reddit.com/r/pokemon/comments/19gsl0/i_fixed_my_version_of_ashs_vs_sprite_thanks_to/.
+Pokeball logo. Retrieved on Feb 02, 2023, from https://www.google.com/search?q=pokeball+logo&rlz=1C1CHBF_enCA922CA922&sxsrf=AJOqlzXm6HTesWzS--Rgv09OP8ZZ43PE7A:1675391929560&source=lnms&tbm=isch&sa=X&sqi=2&ved=2ahUKEwjuqsimqfj8AhU4LFkFHeXoAX0Q_AUoAXoECAEQAw&biw=894&bih=740&dpr=1.25#imgrc=cTAIRxVOAnRvTM
+Pokedex Unova. Retrieved on Feb 02, 2023, from https://www.google.com/search?q=pokedex+unova&tbm=isch&ved=2ahUKEwif68Cfj_r8AhW5rXIEHU87AIgQ2-cCegQIABAA&oq=pokedex+unova&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgYIABAFEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjoECCMQJzoJCAAQgAQQChAYOgcIABCABBAYOgQIABAeUOgBWPoVYPgYaABwAHgAgAFciAHtBpIBAjEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=1mTdY5-oN7nbytMPz_aAwAg&bih=750&biw=1536&rlz=1C1CHBF_enCA922CA922#imgrc=r4yirAn8G4AeXM
+pokeball pixel. Retrieved on Feb 02, 2023, from https://www.google.com/search?q=pokeball+pixe%27&tbm=isch&ved=2ahUKEwi_2revy_f8AhVmvnIEHSkxAmMQ2-cCegQIABAA&oq=pokeball+pixe%27&gs_lcp=CgNpbWcQAzoECCMQJzoECAAQQzoFCAAQgARQ1wJYtRFg9BRoAHAAeACAAV6IAaQEkgEBN5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=OxHcY__QDeb8ytMPqeKImAY&bih=740&biw=942&rlz=1C1CHBF_enCA922CA922#imgrc=-WP34OuUIMrE3M
+pokemon potion pixel. Retrieved on Feb 02, 2023, from https://www.google.com/search?q=pokemon+potion+pixel&tbm=isch&ved=2ahUKEwjOrojoy_f8AhUan3IEHYvsCTIQ2-cCegQIABAA&oq=pokemon+potion+pixel&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAgQHjoECCMQJzoECAAQQzoGCAAQBxAeOggIABAIEAcQHlCGB1j5FGDhFmgAcAB4AIABSogB5ASSAQE5mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=sRHcY46SPJq-ytMPi9mnkAM&bih=740&biw=942&rlz=1C1CHBF_enCA922CA922#imgrc=eS_iLq73f8xLOM
+
+References 0.1
+
+JavaTPoint. (2023). HTML Change Image Size. Retrieved on Feb 02, 2023, from https://www.javatpoint.com/how-to-change-image-size-in-html
+Mozilla. (2023). HTML <figcaption> tag. Retrieved on Feb 02, 2023, from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
+Mozilla. (2023). HTML <adress> tag. Retrieved on Feb 02, 2023, from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address
+W3Schools. (2023). how to - Product Card. Retrieved on Feb 02, 2023, from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_product_card
+W3Schools. (2023). how to - Search Bar. Retrieved on Feb 02, 2023, from https://www.w3schools.com/howto/howto_css_searchbar.asp.
+W3Schools. (2023). how to - Bottom Navigation. Retrieved on Feb 02, 2023, from https://www.w3schools.com/howto/howto_css_bottom_nav.asp.
+W3Schools. (2023). CSS Web Safe Fonts. Retrieved on Feb 02, 2023, from https://www.w3schools.com/cssref/css_websafe_fonts.php.
+W3Schools. (2023). CSS Colors. Retrieved on Feb 02, 2023, from https://www.w3schools.com/cssref/css_colors.php.
+W3Schools. (2023). HTML <symbols> tag. Retrieved on Feb 02, 2023, from https://www.w3schools.com/html/html_symbols.asp.
+W3Schools. (2023). HTML <window scroll> tag. Retrieved on Feb 02, 2023, from https://www.w3schools.com/jsref/met_win_scrollby.asp
+
+Images 0.2
+Ash Standing Pixel. Retrieved on Feb 22, 2023, from https://www.google.com/search?q=ash+ketchum+pixel&tbm=isch&ved=2ahUKEwijhoCuu6z9AhUXBFkFHYt2C08Q2-cCegQIABAA&oq=ash+ketchum+pixel&gs_lcp=CgNpbWcQAzIECAAQQzIECAAQQzIFCAAQgAQyBggAEAUQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjoECCMQJzoGCAAQBxAeOggIABAIEAcQHjoHCAAQsQMQQ1C6DFi5MGC8MmgAcAB4AIABU4gB8waSAQIxM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=-8n3Y-OcF5eI5NoPi-2t-AQ&bih=750&biw=1536&rlz=1C1CHBF_enCA922CA922#imgrc=m8qAtBKRZYZtaM
+Pixel Art Maker. Poke/Great/Ultra/Master Ball. Retrieved on Feb 22, 2023, from http://pixelartmaker.com/art/a58e20b16b34856
+Deviant Art. Lennybitao. (2020). New Pokemon Item. Retrieved on Feb 22, 2023, from https://www.deviantart.com/lennybitao/art/New-Pokemon-items-856527729
+Super Potion pokemon Pixel. Retrieved on Feb 22, 2023, from https://www.google.com/search?q=super+potion+pokemon+pixel&tbm=isch&ved=2ahUKEwiKgbfxnK_9AhWlGGIAHdW2BfsQ2-cCegQIABAA&oq=super+potion+pokemon+pixel&gs_lcp=CgNpbWcQAzoECAAQQzoFCAAQgAQ6BggAEAUQHjoGCAAQCBAeOgcIABCABBAYOgQIABAeUK0CWO4QYIkUaABwAHgAgAFtiAHuA5IBAzYuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=rjz5Y4ryHqWxiLMP1e2W2A8&bih=750&biw=1536&rlz=1C1CHBF_enCA922CA922#imgrc=n6Y7TvJ3JgRxmM
+
+References 0.2
+CodePen. Justin Klemm. Responsive Shopping Cart. Retrieved on Feb 22, 2023, from https://codepen.io/justinklemm/pen/kyMjjv
+CodePen. Sunil Kumar. Product detail page design html || ecommerce product page design html. Retrieved on Feb 22, 2023, from https://codepen.io/creativesunil/pen/NWGojvM?editors=1100
+CodingArtistWeb. (2021). Product Filter and Search Using Javascript. Retrieved on Feb 22, 2023, from https://codingartistweb.com/2021/11/product-filter-and-search-using-javascript/
+MultiWebPress. (2021). How to create pagination using html css? Retrieved on Feb 22, 2023, from https://multiwebpress.com/how-to-create-pagination-using-html-css/
+
+References 0.3
+CodeReview. (2016). Is Date 18+ years old? Retrieved on Mar 22, 2023, from https://codereview.stackexchange.com/questions/118272/is-date-18-years-old
+CSS-Tricks. (2015). Font-Size. Retrieved on Mar 20, 2023, from https://css-tricks.com/almanac/properties/f/font-size/
+GeeksForGeeks. (2021). CSS3 Media Query For All Devices. Retrieved on Mar 22, 2023, from https://www.geeksforgeeks.org/css3-media-query-for-all-devices/
+Mozilla. (2023). Viewport Meta Tag. Retrieved on Mar 21, 2023, from https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
+StackOverflow. (2013). Regex For Email Validation. Retrieved on Mar 21, 2023, from https://stackoverflow.com/questions/14670628/regex-for-email-validation-minimum-characters
+StackOverflow. (2011). Validation over age of 18. Retrieved on Mar 21, 2023, from https://stackoverflow.com/questions/7091130/how-can-i-validate-that-someone-is-over-18-from-their-date-of-birth
+W3Resource. (2022). Make Two Numbers In Range. Retrieved on Mar 21, 2023, from https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-33.php#:~:text=JavaScript%20Basic%3A%20Exercise%2D33%20with%20Solution&text=100%20inclusive.&text=ES6%20Version%3A,(44%2C%2056))%3B%20console.
+W3Resource. (2022). HTML Form Email Validation. Retrieved on Mar 21, 2023, from https://www.w3resource.com/javascript/form/email-validation.php
+W3Schools. (2023). Responsive Top Navigation. Retrieved on Mar 21, 2023, from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+
+
+References 0.4
+CodePen. AC Online. CST8209 post-submission Form Validation. Retrieved on Apr. 15, 2023, from https://codepen.io/Aconlinecodepen/pen/mdLYpyq?editors=1010
+JavaPoint. (2021). calculate age using JavaScript. Retrieved on Apr. 15, 2023, from https://www.javatpoint.com/calculate-age-using-javascript
+JavaScriptTutorial. (2022). JavaScript Checkbox. Retrieved on Apr. 15, 2023, from https://www.javascripttutorial.net/javascript-dom/javascript-checkbox/
+Simplilearn. (2022). how to do an email validation in javascript? Retrieved on Apr. 15, 2023, from https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript
+StackOverflow. (2014). margin CSS not taking affect to checkbox element. Retrieved on Apr. 15, 2023, from https://stackoverflow.com/questions/25265466/margin-css-not-taking-affect-to-checkbox-element
+StackOverflow. (2015). javascript form validation (multiple conditions). Retrieved on Apr. 15, 2023, from https://stackoverflow.com/questions/28353939/javascript-form-validation-multiple-conditions
+W3Resource. (2022). Javascript: HTML Form - email validation. Retrieved on Apr. 15, 2023, from https://www.w3resource.com/javascript/form/email-validation.php
+W3Schools. (2023). how to - display text when checkbox is checked. Retrieved on Apr. 15, 2023, from https://www.w3schools.com/howto/howto_js_display_checkbox_text.asp
+W3Schools. (2023). HMTL forms. Retrieved on Apr. 15, 2023, from https://www.w3schools.com/html/html_forms.asp
+W3Schools. (2023). HTML <input type="tel">. Retrieved on Apr. 15, 2023, from https://www.w3schools.com/tags/att_input_type_tel.asp#:~:text=The%20%3Cinput%20type%3D%22tel,a%20standard%20%22text%22%20input

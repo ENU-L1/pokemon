@@ -1,0 +1,119 @@
+<!--
+  -- Student Name: Shelby Surprenant-Nicolson
+  -- Student ID: 041095620
+  -- Course: CST8117 - Cross-Platform Web Design
+  -- Semester: Winter 2023
+  -- Assignment: 4
+  -- Date Submitted: Apr 17, 2023 
+  -->
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/main.css">
+	<link rel="stylesheet" href="assets/products.css">
+    <script src="assets/main.js"></script>	
+	</script><script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	  <meta type="keywords" content="Pokémon Centre, CST8117">
+	  <meta type="language" content="en-ca">
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  
+  <body>
+    <header>
+      <div>
+	    <a href="#main" class="skip">Skip to main content</a>
+	  </div>
+      <div>
+	    <a href="index.htm"><img src="images/logo.png" alt="Pokeball" width="100" height="100"></a>
+	      <h1>The Poké Mart</h1>
+	  </div>
+	    <nav>
+          <div class="nav_bar" id="myNav_bar">
+		  <a href="index.htm" target="_blank">Home</a>
+          <a href="products.htm" target="_blank">Products</a>
+          <a href="cart.htm" target="_blank">Cart</a>
+          <a href="contact-us.htm" target="_blank">Contact us</a>
+		  <a href="about-us.htm" target="_blank">About us</a>
+		  <a href="privacy.htm" target="_blank">Privacy Policy</a>
+		  <a href="terms.htm" target="_blank">Terms and Conditions</a>
+		    <div class="search-container">
+              <form action="#">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+		    </div>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+	  </nav>
+	</header>
+	
+		<!--Citation: https://codepen.io/creativesunil/pen/NWGojvM?editors=1100
+		Date Retrieved: Feb 23, 2023
+		Notes: copied and adapted 18 css style to design the filter button on products.-->	
+  
+    <main>
+      <section id="services" class="services section-bg">
+          <div class="container-fluid">
+            <div class="row row-sm">
+              <div class="col-md-6 _boxzoom">
+                <div class="zoom-thumb">
+                </div>
+                  <div class="_product-images">
+                    <div class="picZoomer">
+                      <img class="my_img" src="images/pokeball.png" alt="Pokeball" style="width:40%">
+                    </div>
+                  </div>
+              </div>
+            <div class="_product-detail-content">
+              <p class="_p-name"> Pokéball </p>
+                <div class="_p-price-box">
+                  <div class="p-list">
+                    <span class="price"> $ 2.00 </span>
+                  </div>
+                    <div class="_p-add-cart">
+                      <div class="_p-qty">
+                        <span>Add Quantity</span>
+                          <div class="value-button decrease_" id="" value="Decrease Value">-</div>
+                            <input type="number" name="qty" id="number" value="1" />
+                              <div class="value-button increase_" id="" value="Increase Value">+</div>
+                      </div>
+                    </div>
+                  <div class="_p-features">
+                     <span> Description About this product:- </span>
+                       A device for catching wild Pokémon. It's thrown like a ball, comfortably encapsulating its target. 
+                  </div>
+                    <form action="" method="post" accept-charset="utf-8">
+                      <ul class="spe_ul"></ul>
+                        <div class="_p-add-cart">
+                           <button class="btn-theme btn btn-success" tabindex="0">
+                             <i class="fa fa-shopping-cart"></i> Add to Cart
+                           </button>
+                             <input type="hidden" name="pid" value="18" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+          </div>
+      </section>
+  </main>
+  
+  <footer>
+    <div class="navbar">
+      <a href="index.htm" target="_blank">Home</a>
+      <a href="cart.htm" target="_blank">Cart</a>
+      <a href="contact-us.htm" target="_blank">Contact us</a>
+      <a href="about-us.htm" target="_blank">About us</a>
+      <a href="privacy.htm" target="_blank">Privacy Policy</a>
+	  <a href="terms.htm" target="_blank">Terms and Conditions</a>
+		<p>Copyright&copy (2023) by Poké Mart.</p>
+	    <p>All rights reserved.</p>
+    </div>
+  </footer>
+  </body>
+</html>

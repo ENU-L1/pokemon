@@ -1,0 +1,171 @@
+<!--
+  -- Student Name: Shelby Surprenant-Nicolson
+  -- Student ID: 041095620
+  -- Course: CST8117 - Cross-Platform Web Design
+  -- Semester: Winter 2023
+  -- Assignment: 4
+  -- Date Submitted: Apr 17, 2023 
+  -->
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Products</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/main.css">
+	<link rel="stylesheet" href="assets/products.css"> 
+	<script src="assets/main.js"></script>
+	</script><script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	  <meta type="keywords" content="Pokémon Centre, CST8117">
+	  <meta type="language" content="en-ca">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  
+  <body>
+    <header>
+	  <div>
+	    <a href="#main" class="skip">Skip to main content</a>
+	  </div>
+	    <div>
+	      <a href="index.htm"><img src="images/logo.png" width="100" height="100"></a>
+	      <h1>The Poké Mart</h1>
+	    </div>
+	  <nav>
+        <div class="nav_bar" id="myNav_bar">
+		  <a href="index.htm" target="_blank">Home</a>
+          <a href="products.htm" target="_blank">Products</a>
+          <a href="cart.htm" target="_blank">Cart</a>
+          <a href="contact-us.htm" target="_blank">Contact us</a>
+		  <a href="about-us.htm" target="_blank">About us</a>
+		  <a href="privacy.htm" target="_blank">Privacy Policy</a>
+		  <a href="terms.htm" target="_blank">Terms and Conditions</a>
+		    <div class="search-container">
+              <form action="#">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+		    </div>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+	  </nav>
+	  <!--
+		Citation: https://codingartistweb.com/2021/11/product-filter-and-search-using-javascript/
+		Date Retrieved: Feb 23, 2023
+		Notes: copied and adapted html to work the the filter button on products.
+      -->
+	    <div class="wrapper">
+          <div id="search-container">
+            <input
+              type="search"
+              id="search-input"
+              placeholder="Search product name here.."
+            />
+          <button id="search">Search</button>
+        </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+          <button class="button-value" onclick="filterProduct('pokéball')">
+            pokéball
+          </button>
+        <button class="button-value" onclick="filterProduct('Potion')">
+          Potion
+        </button>
+          <button class="button-value" onclick="filterProduct('Pokedex')">
+            Pokedex
+          </button>
+		<button class="button-value" onclick="filterProduct('under 10$')">
+          Under 10$
+        </button>
+		  <button class="button-value" onclick="filterProduct('ASC')">
+            ASC
+          </button>
+		<button class="button-value" onclick="filterProduct('DESC')">
+          DESC
+        </button>
+      </div>
+          <div id="products"></div>
+        </div>
+    </header>
+	
+    <main>
+      <div class="card">
+        <a href="index.htm"><img src="images/ultra_ball.png" alt="Ultra Ball" style="width:61%"></a>
+          <h1>Ultra Ball</h1>
+            <p class="price">$8.00</p>
+            <p>An ultra-performance Ball with a higher catch rate than a Great Ball.</p>
+		      <!--Quoted from https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Ball-->
+            <p><button>Add to Cart</button></p>
+      </div>
+        <div class="card">
+          <a href="index.htm"><img src="images/super_potion.png" alt="Super Potion" style="width:56%"></a>
+            <h1>Super Potion</h1>
+              <p class="price">$7.00</p>
+              <p>A spray-type medicine for treating wounds. It can be used to restore 60 HP to a Pokémon.</p>
+			    <!--Quoted from https://bulbapedia.bulbagarden.net/wiki/Super_Potion#Price-->
+              <p><button>Add to Cart</button></p>
+        </div>
+          <div class="card">
+            <a href="index.htm"><img src="images/great_ball.png" alt="Great Ball" style="width:55%"></a>
+              <h1>Great Ball</h1>
+            <p class="price">$6.00</p>
+            <p>A high-performance Ball with a higher catch rate than a standard Poké Ball.</p>
+			  <!--Quoted from https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Ball-->
+            <p><button>Add to Cart</button></p>
+          </div>
+        <div class="card">
+          <a href="index.htm"><img src="images/master_ball.png" alt="Master Ball" style="width:85%"></a>
+            <h1>Master Ball</h1>
+              <p class="price">$30.00</p>
+              <p>The best Poké Ball with the ultimate level of performance. With it, you will catch any wild Pokémon without fail.</p>
+			    <!--Quoted from https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Ball-->
+              <p><button>Add to Cart</button></p>
+        </div>
+	  <div class="card">
+        <a href="index.htm"><img src="images/family_call.png" alt="Family Call" style="width:70%"></a>
+          <h1>Family Call</h1>
+            <p class="price">$14.00</p>
+            <p>Megaphone that amplifies the cry From a Pokémon throughout the region. Item used to recruit the faithful family of a specific Pokémon, no matter where they are.</p>
+    	      <!--Quoted from https://www.deviantart.com/lennybitao/art/New-Pokemon-items-856527729-->
+            <p><button>Add to Cart</button></p>
+      </div>
+	    <div class="card">
+          <a href="index.htm"><img src="images/Khenouras.png" alt="Khenouras" style="width:85%"></a>
+            <h1>Khenouras</h1>
+              <p class="price">$7.00</p>
+              <p>Vitamin-rich treat that grows hanging from vines. It is very good for the eyes. Item will raise Pokémon's accuracy.</p>
+			    <!--Quoted from https://www.deviantart.com/lennybitao/art/New-Pokemon-items-856527729-->
+              <p><button>Add to Cart</button></p>
+        </div>
+		<!--
+			Citation: https://codingartistweb.com/2021/11/product-filter-and-search-using-javascript/
+			Date Retrieved: Feb 23, 2023
+			Notes: copied and adapted html to work the the filter button on products.
+		-->
+	    <div class="pagination">
+          <a href=""> &nbsp;PREV <i class="fas fa-chevron-left"></i> PREV</a>
+          <a href="">1</a>
+          <a href="">2</a>
+  		  <a href="">...</a>
+	  	  <a href="">5</a>
+		  <a href=""> &nbsp;NEXT <i class="fas fa-chevron-right"></i></a>
+	      <div class="bottom_bar"></div>
+        </div>
+    </main>
+	
+    <footer>
+      <div class="navbar">
+        <a href="index.htm" target="_blank">Home</a>
+        <a href="cart.htm" target="_blank">Cart</a>
+        <a href="contact-us.htm" target="_blank">Contact us</a>
+	    <a href="about-us.htm" target="_blank">About us</a>
+	    <a href="privacy.htm" target="_blank">Privacy Policy</a>
+	  	<a href="terms.htm" target="_blank">Terms and Conditions</a>
+	   	  <p>Copyright&copy (2023) by Poké Mart.</p>
+	      <p>All rights reserved.</p>
+      </div>
+    </footer>	
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!--
+  -- Student Name: Shelby Surprenant-Nicolson
+  -- Student ID: 041095620
+  -- Course: CST8117 - Cross-Platform Web Design
+  -- Semester: Winter 2023
+  -- Assignment: 4
+  -- Date Submitted: Apr 17, 2023 
+  -->
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/main.css">
+	<link rel="stylesheet" href="assets/products.css"> 
+	<script src="assets/contact-us.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	  <meta type="keywords" content="Pokémon Centre, CST8117">
+	  <meta type="language" content="en-ca">
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  
+  <body>
+    <header>
+      <div>
+	    <a href="#main" class="skip">Skip to main content</a>
+	  </div>
+        <div>
+	      <a href="index.htm"><img src="images/logo.png" width="100" height="100"></a>
+	        <h1>The Poké Mart</h1>
+	    </div>
+	  <nav>
+        <div class="nav_bar" id="myNav_bar">
+		  <a href="index.htm" target="_blank">Home</a>
+          <a href="products.htm" target="_blank">Products</a>
+          <a href="cart.htm" target="_blank">Cart</a>
+          <a href="contact-us.htm" target="_blank">Contact us</a>
+		  <a href="about-us.htm" target="_blank">About us</a>
+		  <a href="privacy.htm" target="_blank">Privacy Policy</a>
+		  <a href="terms.htm" target="_blank">Terms and Conditions</a>
+		    <div class="search-container">
+              <form action="#">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+		    </div>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+	  </nav>
+    </header>
+
+    <main>
+	  <h3>Contact Us</h3>
+	    <form name="myForm" onsubmit="return validateForm()" method="post">
+	        <label for="name">Name:</label>
+		  <br>
+            <input type="text" id="name" name="name">
+	      <br>
+	        <label for="phone">Phone Number:</label>
+		  <br>
+            <input type="tel" id="phone" name="phone">
+	      <br>
+	        <label for="email1">Enter your email:</label>
+	      <br>
+            <input type="email" id="email1" name="email1">
+          <br>
+	        <label for="email2">Confirm your email:</label>
+	      <br>
+            <input type="email" id="email2" name="email2">
+            <span id="emailError" class="error"></span>
+	      <br>
+	        <label for="dateofbirth">Date of Birth:</label>
+		  <br>
+            <input type="date" id="dateofbirth" name="dateofbirth">à
+		  <br>
+	 	    <label for="comment">Comments:</label>
+          <br>
+	        <textarea name="comment" id="comment"></textarea>
+   	      <br>
+	 	    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox" class="checkbox">
+	        <label for="checkbox"></label>
+	          <a href="terms.htm" target="_blank">I consent to the terms and agreements</a>
+	      <br>
+	        <input type="submit">
+	    </form>
+    </main>
+  
+    <footer>
+      <div class="navbar">
+        <a href="index.htm" target="_blank">Home</a>
+        <a href="cart.htm" target="_blank">Cart</a>
+        <a href="contact-us.htm" target="_blank">Contact us</a>
+	    <a href="about-us.htm" target="_blank">About us</a>
+        <a href="privacy.htm" target="_blank">Privacy Policy</a>
+  	    <a href="terms.htm" target="_blank">Terms and Conditions</a>
+  		  <p>Copyright&copy (2023) by Poké Mart.</p>
+	      <p>All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
